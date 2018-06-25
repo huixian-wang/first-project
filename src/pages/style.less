@@ -1,0 +1,94 @@
+.container{
+    /*width: 400px;*/
+    /*height: 800px;*/
+    /*background: pink;*/
+    /*margin: 50px;*/
+    /*padding: 20px;*/
+}
+.box{
+    position: sticky;
+    float: left;
+    width: calc(~"50%");
+    height: calc(~"50%");
+    background: cyan;
+    margin: 10px;
+    right: 0;
+    top: 50px;
+}
+.box-left{
+    /*display: table;*/
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: cyan;
+    position: absolute;
+}
+.box-right{
+    /*display: table;*/
+    float: right;
+    width: 200px;
+    height: 100%;
+    background: cyan;
+    position: absolute;
+    right: 0;
+}
+.box-middle{
+    margin: 0 210px;
+    background: pink;
+    height: 100%;
+}
+
+.wrapper{
+    /*background: pink;*/
+    height: 900px;
+    /*overflow: hidden;*/
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    /*flex-flow: row wrap;*/
+    justify-content: space-around;
+    align-items: center;
+    /*align-content: stretch;*/
+    margin-bottom: 10px;
+}
+.middle{
+    /*width: 100%;*/
+    /*float: left;*/
+    width: 700px;
+    background: red;
+    /*order: 2;*/
+    margin: 20px;
+}
+.middle .main{
+    margin: 0 220px;
+    background: red;
+}
+.left{
+    width: 300px;
+    /*margin-top: 20px;*/
+    height: 300px;
+    /*float: left;*/
+    background: green;
+    /*margin-left: -100%;*/
+    /*order: 0;*/
+    margin: 0 10px;
+    flex-grow: 2;
+    /*flex-shrink: 1;*/
+    flex-basis: 200px;
+    align-self: flex-start;
+}
+.right{
+    width: 200px;
+    height: 300px;
+    /*float: left;*/
+    background: yellow;
+    /*margin-left: -200px;*/
+    /*order: 1;*/
+    margin: 0 10px;
+    flex-grow: 1;
+    /*flex-shrink: 1;*/
+}
+.active{
+    color: green;
+}
+

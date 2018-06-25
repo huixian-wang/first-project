@@ -1,0 +1,10 @@
+{
+    "flag": 1,
+    "message": "",
+    "data": {
+        "text": "test fetch",
+        "23434234": "test fetch",
+        "332323": "test fetch",
+        "type": "string"
+    }
+}

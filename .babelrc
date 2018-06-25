@@ -1,0 +1,19 @@
+{
+    "presets": [
+        "react",
+        // "flow",
+        ["env", {
+            "targets": {
+                "browsers": ["last 2 versions", "safari >= 7"]
+            }
+        }],
+        "es2015",
+        "stage-0"
+    ],
+    // "plugins": [
+    //     "transform-object-rest-spread",
+    //     "transform-class-properties",
+    //     "transform-runtime",
+    //     "transform-object-assign"
+    // ]
+}

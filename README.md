@@ -5,3 +5,4 @@
 #### git commit
 #### git remote add origin <link>
 #### git push -u origin master
+#### 我不小心提交了错误文件

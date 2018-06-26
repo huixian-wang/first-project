@@ -15,5 +15,7 @@
 #### git reset --hard commit_id
 
 ###撤销修改
-#### 1.修改add到了暂存区，还未commit
+#### 1.尚未添加到缓冲区
+#### git checkout -- <file>
+#### 2.修改add到了暂存区，还未commit
 #### git reset HEAD <file>

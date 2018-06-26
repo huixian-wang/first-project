@@ -13,5 +13,7 @@
 #### 如果需要撤销回退，回到之前的版本号
 #### git reflog（找到上一次的commit_id）
 #### git reset --hard commit_id
-test
-test2
+
+###撤销修改
+#### 1.修改add到了暂存区，还未commit
+#### git reset HEAD <file>

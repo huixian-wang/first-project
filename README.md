@@ -31,4 +31,9 @@
 #### git branch <name>
 #### git checkout <name>
 #### 等价于 git checkout -b <name>
+### 1.本地先开好分支然后推送到远程(先本地后远程)
+#### git checkout -b <localBranch>
+#### git push origin <localBranch>:<remoteBranch>
+### 2.远程先开好分支然后拉到本地(先远程后本地)
+#### git checkout -b branchName origin/<remoteBranch>
 

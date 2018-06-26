@@ -27,3 +27,8 @@
 #### git add / git rm <file>(rm：将文件从版本库中删除)
 #### git commit
 
+## 新建分支
+#### git branch <name>
+#### git checkout <name>
+#### 等价于 git checkout -b <name>
+

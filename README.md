@@ -61,6 +61,12 @@
 ## 解决冲突
 #### git log --graph 查看分支合并图
 
+## 打tag
+#### git tag tagName 给最新的commitId打标签
+#### git tag tagName commitID 给指定的commitId打标签
+#### git tag -d tagName 删除本地tag
+#### git tag -d tagName + git push origin :refs/tags/tagName 删除远程tag
+
 
 ## 其它
 #### git fetch 更新本地远程分支使其与远程分支同步，但不会merge到本地分支（-p表示删除远程不存在的分支）

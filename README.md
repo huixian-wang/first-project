@@ -42,7 +42,8 @@
 #### git branch -D <name>(强制删)
 
 ## 合并分支
-### git merge <branchName>
+#### git merge <branchName>
+#### git merge --abort
 
-##解决冲突
+## 解决冲突
 #### git log --graph 查看分支合并图

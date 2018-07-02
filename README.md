@@ -40,3 +40,6 @@
 ## 删除分支
 #### git branch -d <name>
 #### git branch -D <name>(强制删)
+
+## 合并分支
+### git merge <branchName>

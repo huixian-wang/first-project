@@ -55,4 +55,7 @@
 
 
 ## 合并分支
-### git merge <branchName>
+#### git merge <branchName>
+
+## 其它
+#### git fetch 更新本地远程分支使其与远程分支同步，但不会merge到本地分支（-p表示删除远程不存在的分支）

@@ -49,9 +49,9 @@
 ### 本地的远程分支
 #### git branch -r -D/-d origin/<name>
 ### 远程删除git服务器上的分支
-<!-- #### 1. git push origin -d origin/<name> ??? -->
-#### git branch -r -D/-d origin/<name>
-#### git push origin :branchName
+#### 1. git push origin -d branchName
+#### 2. git branch -r -D/-d origin/<name>
+#### 2. git push origin :branchName
 
 
 ## 合并分支

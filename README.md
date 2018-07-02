@@ -33,9 +33,13 @@
 #### 等价于 git checkout -b <name>
 ### 1.本地先开好分支然后推送到远程(先本地后远程)
 #### git checkout -b <localBranch>
-#### git push origin <localBranch>:<remoteBranch>
+#### git push origin <localBranch>:<remoteBranch>（git push -u可以使远程分支与本地分支关联起来）
 ### 2.远程先开好分支然后拉到本地(先远程后本地)
 #### git checkout -b branchName origin/<remoteBranch>
+
+## 关联分支
+#### git branch --set-upstream-to=origin/remote_branch  your_branch
+#### git branch --set-upstream your_branch origin/remote_branch
 
 ## 删除分支
 #### git branch -d <name>

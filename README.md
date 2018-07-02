@@ -38,9 +38,9 @@
 #### git checkout -b branchName origin/<remoteBranch>
 
 ## 关联分支
-<!-- #### git branch --set-upstream your_branch origin/remote_branch -->
+#### // git branch --set-upstream your_branch origin/remote_branch
 #### git branch --set-upstream-to=origin/remote_branch  your_branch
-<!-- #### git branch --track your_branch origin/remote_branch ??? -->
+#### // git branch --track your_branch origin/remote_branch ???
 
 ## 删除分支
 ### 本地分支
@@ -64,6 +64,8 @@
 ## 打tag
 #### git tag tagName 给最新的commitId打标签
 #### git tag tagName commitID 给指定的commitId打标签
+#### git push origin tagName 推送tagName到远程
+
 #### git tag -d tagName 删除本地tag
 #### git tag -d tagName + git push origin :refs/tags/tagName 删除远程tag
 

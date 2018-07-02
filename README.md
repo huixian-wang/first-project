@@ -43,8 +43,14 @@
 <!-- #### git branch --track your_branch origin/remote_branch ??? -->
 
 ## 删除分支
+### 本地分支
 #### git branch -d <name>
 #### git branch -D <name>(强制删)
+### 本地的远程分支
+#### git branch -r -D/-d origin/<name>
+### 远程删除git服务器上的分支
+#### git push origin -d origin/<name>
+
 
 ## 合并分支
 ### git merge <branchName>

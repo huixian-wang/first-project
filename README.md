@@ -43,3 +43,6 @@
 
 ## 合并分支
 ### git merge <branchName>
+
+##解决冲突
+#### git log --graph

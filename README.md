@@ -38,8 +38,9 @@
 #### git checkout -b branchName origin/<remoteBranch>
 
 ## 关联分支
+<!-- #### git branch --set-upstream your_branch origin/remote_branch -->
 #### git branch --set-upstream-to=origin/remote_branch  your_branch
-#### git branch --set-upstream your_branch origin/remote_branch
+#### git branch --track your_branch origin/remote_branch
 
 ## 删除分支
 #### git branch -d <name>

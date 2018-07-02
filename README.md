@@ -45,4 +45,4 @@
 ### git merge <branchName>
 
 ##解决冲突
-#### git log --graph
+#### git log --graph分支合并图

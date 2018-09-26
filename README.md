@@ -74,7 +74,7 @@
 #### git fetch 更新本地远程分支使其与远程分支同步，但不会merge到本地分支（-p表示删除远程不存在的分支）
 
 合代码、打tag
-1. 确保当前分支与远端分支代码一直，（若有多个并行开发的分支，需要先pull，确保和master同步）
+1. 确保当前分支与远端分支代码一致，（若有多个并行开发的分支，需要先pull，确保和master同步）
 2. 切换到master分支，执行git merge （--no-ff，gerrit） origin/br_new-dragnet-wechat-pc_web_1.0.0
 3. 如果有冲突，解决冲突后提交，在gerrit中必须确保此次merge有commit-id
 4. git tag -a tagName（1.0.0，分支版本号） -m 'message（deploy）'

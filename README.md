@@ -80,4 +80,6 @@
 4. git tag -a tagName（1.0.0，分支版本号） -m 'message（deploy）'
 5. git push origin tag tagName（1.0.0）
 
-test
+test dev5
+
+test dev6

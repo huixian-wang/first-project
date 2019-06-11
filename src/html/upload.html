@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>录入报销凭证</title>
+<style type="text/css">
+	.certificate{
+		text-align:center;
+	}
+	#container{
+		margin-left:100px;
+		margin-right:100px;
+		border: 1px solid black;
+	}
+	#certiContent{
+	}
+	.title{
+		text-align:center;
+	}
+	.referral{
+		margin-top: 30px;
+	}
+	.registration{
+		margin-top: 40px;
+	}
+	.prescription{
+		margin-top: 40px;
+	}
+	.content{
+		margin-top: 15px;
+	}
+	span{
+		margin-left: 12px;
+    	margin-right: 5px;
+	}
+	.title1{
+		font-size: 25px;
+	}
+	.button{
+		margin-top:50px;
+		margin-bottom:10px;
+	}
+	.referImage{
+		margin-top: 15px;
+	}
+	.registImage{
+		margin-top: 15px;
+	}
+	.presImage{
+		margin-top: 15px;
+	}
+	
+</style>
+<script type="text/javascript">
+	var presImageIndex = 1;//药费单据
+	var referralIndex = 1;//转诊单
+	function addPresImage(){
+		var imageBox = document.getElementById("imageBox");
+        var div = document.createElement("div");
+        div.innerHTML = imageBox.innerHTML;
+        var imageContainer = document.getElementById("imageContainer");
+        imageContainer.appendChild(div);
+        presImageIndex++;
+	}
+	function addCertiContent(){
+		var certiContent = document.getElementById("certiContent");
+		var div = document.createElement("div");
+        div.innerHTML = certiContent.innerHTML;
+        var container = document.getElementById("container");
+        container.appendChild(div)	;
+	}
+	function saveCertiContent(){
+		alert("保存成功！");
+	}
+</script>
+</head>
+<body>
+	<div class="certificate">
+		<h1 class="title">录入报销凭证</h1>
+		<div id="container">
+			<div id="certiContent">
+				<div class="referral">
+					<form>
+						<span class="title1">转诊单</span> <br>
+						<div class="content">
+							<span>转诊医院：</span><input type="text" name="referHospital" size="20">
+							<span>转诊单日期：</span><input type="date" name="referDate">
+						</div>
+					</form> 
+					<input class="referImage" type="file"  accept="image/*" capture="camera" size="30">
+				</div>	
+				<div class="registration">
+					<form>
+						<span class="title1">医事服务费（挂号费）</span> <br>
+						<div class="content">
+							<span>就诊医院：</span><input type="text" name="registHospital" size="20">
+							<span>就诊日期：</span><input type="date" name="registDate">
+							<span>金额：</span><input type="text" name="registAmount" size="10">
+						</div>
+					</form> 
+					<input class="registImage" type="file"  accept="image/*" capture="camera" size="30" multiple>	
+				</div>
+				<div class="prescription">
+					<form>
+						<span class="title1">药费单据</span> <br>
+						<div class="content">
+							<span>就诊医院：</span><input type="text" name="presHospital" size="20">
+							<span>就诊日期：</span><input type="date" name="presDate">
+							<span>金额：</span><input type="text" name="presAmount" size="10">
+						</div>
+					</form> 
+					<div id="imageContainer">
+						<div id="imageBox">
+							<input class="presImage" type="file" accept="image/*" capture="camera" size="30" multiple>
+						</div>
+					</div>
+				</div>
+				<div class="button"> 
+					<button type="button" onclick="addPresImage();">下一张药费单据</button>
+					<button type="button" onclick="addCertiContent();">下一张转诊单</button>
+					<button type="button" onclick="saveCertiContent();">保存</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

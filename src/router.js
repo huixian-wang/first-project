@@ -5,6 +5,14 @@ import Page from './pages/Page'
 import About from './pages/component/About'
 import Topics from './pages/component/Topics'
 import Home from './pages/component/Home'
+import Animate from './pages/component/Animate'
+import Carousel from './pages/component/Carousel'
+import Debugger from './pages/component/Debugger'
+import TestHOCCom from './pages/highOrderCom/TestHOCCom'
+import Wrapped from './pages/container/Wrapped'
+import Houdini from './pages/houdini/Index'
+
+import Skeleton from './pages/skeleton/Index'
 
 // const AppRouter = props => {
 //     // <Router history={hashHistory}>
@@ -31,10 +39,19 @@ class AppRouter extends Component {
         return (
              <Router history={hashHistory}>
                 <Route path='/' component={Page}>
-                    <IndexRoute component={Home} />
-                    <Route path='about' component={About} />
-                    <Route path='topics' component={Topics} />
-                    <Redirect from='about' to='topics' />
+                    {/*<IndexRoute component={Skeleton} />*/}
+                    {/*<Route path='about' component={Houdini} />*/}
+                    {/*<Route path='animate' component={Animate} />*/}
+                    {/*<Route path='topics' component={Topics} />carousel*/}
+                    {/*<Route path='carousel' component={Carousel} />*/}
+                    {/*<Route path='debugger' component={Debugger} />*/}
+                    {/*<Route path='wrapped' component={TestHOCCom} />*/}
+                    {/*<Route path='highOrder' component={Wrapped} />*/}
+                    {/*<Route path='houdini' component={Houdini} />*/}
+                    {/*<Redirect from='about' to='topics' />*/}
+
+                    {/*<Route path='skeleton' component={Skeleton} />*/}
+
                 </Route>
             </Router>
         )

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import About from './About'
 
 // const num = localStorage.clickCount
 class Topics extends Component{
@@ -31,8 +32,9 @@ class Topics extends Component{
         const { num } = this.state
         return (
              <div>
-                    <button onClick={this.handleClick}>点击</button>
-                    <span>{num}</span>
+                 <button onClick={this.handleClick}>点击</button>
+                 <span>{num}</span>
+                 <iframe src="../../html/upload.html" frameBorder="0"></iframe>
             </div>
         )
     }

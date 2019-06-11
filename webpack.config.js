@@ -22,7 +22,7 @@ module.exports = {
         historyApiFallback: true,
         inline: true,
         open: true,
-        port: 8080,
+        port: 8111,
         // before(app){
         //     apiMocker(app, path.resolve('./src/mock.js'), {
         //         proxy: {
@@ -91,8 +91,6 @@ module.exports = {
             //     options: {
             //         limit: 8192
             //     }，
-            //     name: 'images/[name].[ext]'
-            // }]
         },{
             test: /\.(js|jsx)$/,
             // loader: 'babel-loader?preset=[[env], [react]]'

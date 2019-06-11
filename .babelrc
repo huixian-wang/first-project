@@ -10,10 +10,11 @@
         "es2015",
         "stage-0"
     ],
-    // "plugins": [
-    //     "transform-object-rest-spread",
-    //     "transform-class-properties",
-    //     "transform-runtime",
-    //     "transform-object-assign"
-    // ]
+    "plugins": [
+        "styled-jsx/babel"
+//         "transform-object-rest-spread",
+//         "transform-class-properties",
+//         "transform-runtime",
+//         "transform-object-assign"
+    ]
 }

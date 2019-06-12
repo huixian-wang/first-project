@@ -1594,7 +1594,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.5.1, create-react-class@^15.6.0:
+create-react-class@^15.5.1:
   version "15.6.3"
   resolved "http://172.16.116.19:7001/create-react-class/download/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   dependencies:
@@ -4606,13 +4606,13 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-content-loader@^1.6.1:
-  version "1.6.1"
-  resolved "http://172.16.116.19:7001/react-content-loader/download/react-content-loader-1.6.1.tgz#b55f1467e0674da77f761e1e74085b2216016ca9"
+react-content-loader@^1.7.3:
+  version "1.7.3"
+  resolved "http://172.16.116.19:7001/react-content-loader/download/react-content-loader-1.7.3.tgz#aadef5e86947387981c3920af3152a79aeae7f6e"
   dependencies:
     babel-runtime "^6.6.1"
 
-react-dom@^15.6.1:
+react-dom@^15.6.2:
   version "15.6.2"
   resolved "http://172.16.116.19:7001/react-dom/download/react-dom-15.6.2.tgz#41cfadf693b757faf2708443a1d1fd5a02bef730"
   dependencies:
@@ -4670,16 +4670,6 @@ react-router@^4.3.1:
     path-to-regexp "^1.7.0"
     prop-types "^15.6.1"
     warning "^4.0.1"
-
-react@^15.6.1:
-  version "15.6.2"
-  resolved "http://172.16.116.19:7001/react/download/react-15.6.2.tgz#dba0434ab439cfe82f108f0f511663908179aa72"
-  dependencies:
-    create-react-class "^15.6.0"
-    fbjs "^0.8.9"
-    loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -5855,7 +5845,7 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^3.5.6:
+webpack@^3.12.0:
   version "3.12.0"
   resolved "http://172.16.116.19:7001/webpack/download/webpack-3.12.0.tgz#3f9e34360370602fcf639e97939db486f4ec0d74"
   dependencies:

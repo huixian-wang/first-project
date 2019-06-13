@@ -14,6 +14,8 @@ import Houdini from './pages/houdini/Index'
 
 import Skeleton from './pages/skeleton/Index'
 
+import TestHttp from './pages/component/TestHttp'
+
 // const AppRouter = props => {
 //     // <Router history={hashHistory}>
 //     console.log(props)
@@ -52,6 +54,7 @@ class AppRouter extends Component {
 
                     {/*<Route path='skeleton' component={Skeleton} />*/}
 
+                    <Route path='testhttp' component={TestHttp} />
                 </Route>
             </Router>
         )

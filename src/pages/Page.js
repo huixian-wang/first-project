@@ -48,6 +48,7 @@ class Page extends Component {
                     {/*<li><Link to="/wrapped" activeClassName={style.active}>Wrapped</Link></li>*/}
                     {/*<li><Link to="/houdini" activeClassName={style.active}>Houdini</Link></li>*/}
                     {/* <li><Link to="/skeleton" activeClassName={style.active}>骨架屏</Link></li>*/}
+                    {/* <li><Link to="/skeleton" activeClassName={style.active}>骨架屏</Link></li>*/}
                 </ul>
                 {this.props.children}
             </div>
